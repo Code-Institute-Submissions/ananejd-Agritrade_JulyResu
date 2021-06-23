@@ -1,0 +1,49 @@
+[{
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001340155",
+        "name": "Eggs",
+        "description": "High quality eggs produced from organic feeds and supplements",
+        "price": 20.99,
+        "category": 6,
+        "rating": 4.6,
+        "image": "eggs.jpg"
+    }
+}, {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001600425",
+        "name": "Dressed Chicken",
+        "description": "orgnanically dressed chicken, ready to be prepared",
+        "price": 50.99,
+        "category": 4,
+        "rating": 4.6,
+        "image": "Dressed.png"
+    } 
+}, {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001890157",
+        "name": "Live Bird",
+        "description": "Live birds of different sizes and age available from layers to broilers",
+        "price": 55.99,
+        "category": 7,
+        "rating": 3.0,
+        "image": ""
+    }
+}, {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002111605",
+        "name": "point of lay birds",
+        "description": "10 weeks old and over point of lay birds available ",
+        "price": 30.99,
+        "category": 7,
+        "rating": 5.0,
+        "image": "lay.jpeg"
+    }
+}]
