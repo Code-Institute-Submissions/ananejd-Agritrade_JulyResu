@@ -2,28 +2,28 @@
     "pk": 1,
     "model": "products.category",
     "fields": {
-        "name": "activewear",
+        "name": "Eggs",
         "friendly_name": "Activewear"
     }
 }, {
     "pk": 2,
     "model": "products.category",
     "fields": {
-        "name": "bed_bath",
-        "friendly_name": "Bed & Bath"
+        "name": "Dressed",
+        "friendly_name": "Dressed"
     }
 },{
     "pk": 4,
     "model": "products.category",
     "fields": {
-        "name": "deals",
-        "friendly_name": "Deals"
+        "name": "Live",
+        "friendly_name": "Live"
     }
 }, {
     "pk": 5,
     "model": "products.category",
     "fields": {
-        "name": "essentials",
-        "friendly_name": "Essentials"
+        "name": "lay",
+        "friendly_name": "lay"
     }
 }]

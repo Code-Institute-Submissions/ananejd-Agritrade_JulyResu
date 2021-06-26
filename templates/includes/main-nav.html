@@ -18,10 +18,10 @@
                 poultry products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Eggs</a>
-                <a href="" class="dropdown-item">Dressed Chicken</a>
-                <a href="" class="dropdown-item">Live Birds</a>
-                <a href="" class="dropdown-item">Point of lay chicks</a>
+                <a href="{% url 'products' %}?category=Eggs" class="dropdown-item">Eggs</a>
+                <a href="{% url 'products' %}?category=Dressed" class="dropdown-item">Dressed Chicken</a>
+                <a href="{% url 'products' %}?category=Live" class="dropdown-item">Live Birds</a>
+                <a href="{% url 'products' %}?category=lay" class="dropdown-item">Point of lay chicks</a>
             </div>
         </li>
 
@@ -30,9 +30,9 @@
                 Poultry Feed
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Feeding concentrates</a>
-                <a href="" class="dropdown-item">Maize &amp; Soya</a>
-                <a href="" class="dropdown-item">All Feeding components</a>
+                <a href="{% url 'products' %}?category=feeding_concentrates" class="dropdown-item">Feeding concentrates</a>
+                <a href="{% url 'products' %}?category=maize_soya" class="dropdown-item">Maize &amp; Soya</a>
+                <a href="{% url 'products' %}?category=feeding_concentrates, maize_soya" class="dropdown-item">All Feeding components</a>
             </div>
         </li>
 
@@ -41,10 +41,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>

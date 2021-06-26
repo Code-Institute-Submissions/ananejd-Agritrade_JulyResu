@@ -6,7 +6,7 @@
         "name": "Eggs",
         "description": "High quality eggs produced from organic feeds and supplements",
         "price": 20.99,
-        "category": 6,
+        "category": 4,
         "rating": 4.6,
         "image": "eggs.jpg"
     }
@@ -15,7 +15,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5001600425",
-        "name": "Dressed Chicken",
+        "name": "Dressed",
         "description": "orgnanically dressed chicken, ready to be prepared",
         "price": 50.99,
         "category": 4,
@@ -27,7 +27,7 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5001890157",
-        "name": "Live Bird",
+        "name": "Live",
         "description": "Live birds of different sizes and age available from layers to broilers",
         "price": 55.99,
         "category": 7,
@@ -39,11 +39,71 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5002111605",
-        "name": "point of lay birds",
+        "name": "lay",
         "description": "10 weeks old and over point of lay birds available ",
         "price": 30.99,
         "category": 7,
         "rating": 5.0,
         "image": "lay.jpeg"
+    }
+}, {
+    "pk":3 ,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp6000000001",
+        "name": "concentrates",
+        "description": "poultry feed concentrate ",
+        "price": 30.99,
+        "category": 7,
+        "rating": 5.0,
+        "image": "concentrate.jpeg"
+    }
+}, {
+    "pk":6 ,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp6000000002",
+        "name": "maize",
+        "description": "Yellow maize for feeding animals",
+        "price": 30.99,
+        "category": 7,
+        "rating": 5.0,
+        "image": "maize.jpeg"
+    }
+}, {
+    "pk":7 ,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp6000000003",
+        "name": "soya",
+        "description": "soya beans for animal feed production",
+        "price": 30.99,
+        "category": 7,
+        "rating": 5.0,
+        "image": "soya.jpeg"
+    }
+}, {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp0000000004",
+        "name": "",
+        "description": "",
+        "price": 30.99,
+        "category": 7,
+        "rating": 5.0,
+        "image": ""
+    }
+}, {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp60000000005",
+        "name": "lay",
+        "description": "",
+        "price": 30.99,
+        "category": 7,
+        "rating": 5.0,
+        "image": ""
     }
 }]
