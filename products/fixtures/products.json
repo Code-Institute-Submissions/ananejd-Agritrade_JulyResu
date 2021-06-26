@@ -87,23 +87,23 @@
     "model": "products.product",
     "fields": {
         "sku": "pp0000000004",
-        "name": "",
-        "description": "",
+        "name": "arrivals",
+        "description": "New products in store",
         "price": 30.99,
         "category": 7,
         "rating": 5.0,
-        "image": ""
+        "image": "soya.jpeg"
     }
 }, {
     "pk": 9,
     "model": "products.product",
     "fields": {
         "sku": "pp60000000005",
-        "name": "lay",
-        "description": "",
+        "name": "deals",
+        "description": "reduced to clear deals",
         "price": 30.99,
         "category": 7,
         "rating": 5.0,
-        "image": ""
+        "image": "maize.jpeg"
     }
 }]
