@@ -42,14 +42,14 @@ A MVP (minimum viable product) includes:
 2 | Site User | Log In and Log Out | View my profile
 3 | Site User | Receive email confirmation | Confirm successful registration
 4 | Site User | Have a user profile | View my purchases, and be able to check my order history
-5 | Potential customer | View some crafts | Select to purchase
-6 | Potential customer | View details of the craft | See price and description
-7 | Potential customer | Pay for the craft i like | Buy
-8 | Customer | View craft in my bag | Check the cost to review
+5 | Potential customer | View some products | Select to purchase
+6 | Potential customer | View details of products | See price and description
+7 | Potential customer | Pay for the products i like | Buy
+8 | Customer | View products in my bag | Check the cost to review
 9 | Customer | Enter payment information and see that process is secure | Checkout without issues
-11 | Administrator | Add new catergory of crafts | To make them visible to customer
+11 | Administrator | Add new catergory of products | To make them visible to customer
 12 | Administrator | Edit or update various categories | To change a pric and/or description 
-13 | Administrator | Delete a category of craft | To remove from a site
+13 | Administrator | Delete a category of products | To remove from a site
 
 ## Features
 
@@ -101,11 +101,12 @@ that have been reviewed by the site user awaiting payment.
     </details>
 ## Technologies Used
 
-- Python 3.8.8
+- Python 3.8.10
 - Django3.2.4
 - BootStrap 4
 - Coverage 5.5
 - JavaScript
+- stripe 2.58.0
 - CSS
 - HTML
 - figma for wireframing
@@ -126,7 +127,7 @@ All sensitive access keys are stored as `Config Vars` on Heroku cloud applicatio
 Django allauth was used to meet security requirements.
 
 ## Deployment
-This project was built using Python 3.8.6 and Flask 1.1.2.
+This project was built using Python 3.8.6 and Django3.2.4
 1. The project was deployed to Heroku with config vars:
 1. created requirements.txt that Heroku knows which packages are required for the application to run and install them.
 1. created Procfile that Heroku knows what kind of application this is.
@@ -134,16 +135,13 @@ This project was built using Python 3.8.6 and Flask 1.1.2.
 <a href="https://jd-agritrade.herokuapp.com/">here</a>">
 
 #### Challenges 
-The developer was constrained by time in studying and executing all the desired functionalities for the project within an 
-expected time frame. He however hopes to bring the project to completion in due course.
 
 There was a difficulty in linking the database to the heroku app for which the developer continues to work on.
 
 ### project inspiration: 
 
-1. inspiration for this project were largely drawn from tutorials on the Youtube channel of Very Academy.
-1. Git ignore file was adopted from www.toptal.com/developers/gitignore/api
+1. inspiration for this project were largely drawn from video tutorials of the code institute on Full stack development with Django. 
 1. Appreciation goes to the code institute student support team for being very supportive throughout my period
    study with the code institute
-1. Im grateful to my Alexander of the student care team at the code institute for her time.
+1. Im grateful to my Alexander of the student care team at the code institute for his time and help throught this project 
 
