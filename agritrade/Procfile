@@ -1,1 +1,1 @@
-web: bundle exec agritrade server -p $PORT
+web: gunicorn boutique_ado.wsgi:application
