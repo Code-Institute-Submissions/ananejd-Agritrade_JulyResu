@@ -1,1 +1,1 @@
-web: gunicorn jd-agritrade.wsgi:application
+web:gunicorn jd-agritrade.wsgi:application
