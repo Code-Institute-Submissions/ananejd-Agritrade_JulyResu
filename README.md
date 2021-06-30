@@ -8,7 +8,7 @@ The project allows a user to view a collection of poultry farming related produc
 whiles reviewing their prices and moving desired items to the basket where payment can be made.
 
 <hr>
-Find a live version <a href="http://ami.responsivedesign.is/?url=https://craftstore-app.herokuapp.com/">here</a>
+Find a live version <a href="http://ami.responsivedesign.is/?url=https://jd-agritrade.herokuapp.com/">here</a>
 
 
 ## UX Design
@@ -102,8 +102,8 @@ that have been reviewed by the site user awaiting payment.
 ## Technologies Used
 
 - Python 3.8.8
-- Django 3.1.7
-- BootStrap 3
+- Django3.2.4
+- BootStrap 4
 - Coverage 5.5
 - JavaScript
 - CSS
@@ -131,7 +131,7 @@ This project was built using Python 3.8.6 and Flask 1.1.2.
 1. created requirements.txt that Heroku knows which packages are required for the application to run and install them.
 1. created Procfile that Heroku knows what kind of application this is.
 1. project eventually deployed at 
-<a href="https://craftstore-app.herokuapp.com/">here</a>">
+<a href="https://jd-agritrade.herokuapp.com/">here</a>">
 
 #### Challenges 
 The developer was constrained by time in studying and executing all the desired functionalities for the project within an 
