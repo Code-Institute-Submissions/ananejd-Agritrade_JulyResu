@@ -145,5 +145,5 @@ There was a difficulty in linking the database to the heroku app for which the d
 1. Git ignore file was adopted from www.toptal.com/developers/gitignore/api
 1. Appreciation goes to the code institute student support team for being very supportive throughout my period
    study with the code institute
-1. Im grateful to my mentor Seun Owonikoko for her time.
+1. Im grateful to my Alexander of the student care team at the code institute for her time.
 
