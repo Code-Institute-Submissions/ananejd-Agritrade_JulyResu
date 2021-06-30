@@ -1,59 +1,149 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+!# AGRITRADE
+## Full Stack Framework with Django
 
-Welcome ananejd,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+The project is a Database-driven Ecommerce shop Agricultural products in relation in poultry production.
+The project allows a user to view a collection of poultry farming related products under various categories and trade offers, 
+whiles reviewing their prices and moving desired items to the basket where payment can be made.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<hr>
+Find a live version <a href="http://ami.responsivedesign.is/?url=https://craftstore-app.herokuapp.com/">here</a>
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+## UX Design
 
-Another blue button should appear to click: _Open Browser_.
+My design was inspired by the code institute video lecture on full stack web development with Django. 
+The design displays a beautiful picture of a chick on the homepage with a shop now button which opens up to the store.
+Users of the website are able to view the various products on sale at the shop under the categories of pricing, rating and whether or
+not the product is feed related or a poultry product. 
+The search input area in the header allows users to search for the product they are shoping for.
+Users have the option to create an account using the Account button. 
+The basket is on display for users who have made purchases with the total cost of their purchase on display.
+Overall, the colour green has been used in designing the website to depict the greenery associated with Agriculture.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+##Scope
+A MVP (minimum viable product) includes:
 
-Another blue button should appear to click: _Open Browser_.
+- landing page displaying a picture of a lovely looking chick 
+- A search input area for looking for products
+- An Area for accessing your account or setting up one.
+- A basket button 
+- A library button acting as a dropdown menu for various categories of products
+- A shop now button that displays all products on offer.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+### User stories
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+**ID** | **As a/an** | **I want to be able to...** | **So that I can**
+--- | --- | --- | ---
+1 | Site User | Register to the site | Log in to my account 
+2 | Site User | Log In and Log Out | View my profile
+3 | Site User | Receive email confirmation | Confirm successful registration
+4 | Site User | Have a user profile | View my purchases, and be able to check my order history
+5 | Potential customer | View some crafts | Select to purchase
+6 | Potential customer | View details of the craft | See price and description
+7 | Potential customer | Pay for the craft i like | Buy
+8 | Customer | View craft in my bag | Check the cost to review
+9 | Customer | Enter payment information and see that process is secure | Checkout without issues
+11 | Administrator | Add new catergory of crafts | To make them visible to customer
+12 | Administrator | Edit or update various categories | To change a pric and/or description 
+13 | Administrator | Delete a category of craft | To remove from a site
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+## Features
 
-## Updates Since The Instructional Video
+### home
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The home page greets farmers with a picture of a beautiful chick with a SHOP NOW button. 
+The SHOP NOW button invites farmers to take a look at the various products on offer.
+Farmers are also informed of a delivery fee waiver over a specific amount.
+Various icons in the header helps summarize the various products the site offers to the visitor of the website.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### SEARCH AREA 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+the search area allows users of the website to directly search for their product of interest without combing through the site.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### MY ACCOUNT
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The MY ACCOUNT icon allows users to setup an account on the website or accessing their existing account on the website.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### ALL PRODUCTS 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The ALL PRODUCTS icon when clicked on offers the site user a categorisation of the products on offer. 
+ie by pricing, rating and a view of all products.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### POULTRY PRODUCTS 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+This link allows the user of the website to assess specific poultry products being sold on the site.
+ie Eggs, Dressed Chicken, Live Birds and Point of lay chicks.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### POULTRY FEED 
 
----
+This links allows the users of the website to assess Poultry feeds sold on the website
 
-Happy coding!
+### Basket
+
+The basket button on the right side of the navigation bar is meant to hold a list of items 
+that have been reviewed by the site user awaiting payment.
+
+### Wireframes
+
+- Home Page
+
+    <details><summary>Desktop (click to view)</summary>
+
+    ![](<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F9eOMIaCWLS6u7WBXtREDNX%2Fcraftstore%3Fnode-id%3D1%253A27" allowfullscreen></iframe>)
+    </details>
+    
+    
+    ![](static/images/Wireframe.png)
+    </details>
+## Technologies Used
+
+- Python 3.8.8
+- Django 3.1.7
+- BootStrap 3
+- Coverage 5.5
+- JavaScript
+- CSS
+- HTML
+- figma for wireframing
+
+## Database Schema
+
+Database contains 3 table:
+- user
+- categories
+- products
+
+I use Django default databases SQLite in gitpod environment and PostgreSQL database with Heroku as production enviroment.
+
+
+### Security
+
+All sensitive access keys are stored as `Config Vars` on Heroku cloud application platform.
+Django allauth was used to meet security requirements.
+
+## Deployment
+This project was built using Python 3.8.6 and Flask 1.1.2.
+1. The project was deployed to Heroku with config vars:
+1. created requirements.txt that Heroku knows which packages are required for the application to run and install them.
+1. created Procfile that Heroku knows what kind of application this is.
+1. project eventually deployed at 
+<a href="https://craftstore-app.herokuapp.com/">here</a>">
+
+#### Challenges 
+The developer was constrained by time in studying and executing all the desired functionalities for the project within an 
+expected time frame. He however hopes to bring the project to completion in due course.
+
+There was a difficulty in linking the database to the heroku app for which the developer continues to work on.
+
+### project inspiration: 
+
+1. inspiration for this project were largely drawn from tutorials on the Youtube channel of Very Academy.
+1. Git ignore file was adopted from www.toptal.com/developers/gitignore/api
+1. Appreciation goes to the code institute student support team for being very supportive throughout my period
+   study with the code institute
+1. Im grateful to my mentor Seun Owonikoko for her time.
+
