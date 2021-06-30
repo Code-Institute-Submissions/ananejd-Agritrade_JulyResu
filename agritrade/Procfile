@@ -1,1 +1,1 @@
-web:gunicorn jd-agritrade.wsgi:application
+web: bundle exec agritrade server -p $PORT
