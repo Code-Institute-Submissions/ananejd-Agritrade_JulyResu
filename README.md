@@ -101,15 +101,19 @@ that have been reviewed by the site user awaiting payment.
     </details>
 ## Technologies Used
 
-- Python 3.8.10
-- Django3.2.4
-- BootStrap 4
-- Coverage 5.5
+- HTML5
+- CSS3
 - JavaScript
-- stripe 2.58.0
-- CSS
-- HTML
-- figma for wireframing
+- Python
+- Bootstrap
+- FontAwesome
+- Google Fonts
+- jQuery
+- Django
+- Git
+- Heroku
+- GitHub
+- AWS S3 bucket
 
 ## Database Schema
 
